@@ -20,7 +20,7 @@ app.get("/today", function (req, res) {
 });
 
 // use the express-static middleware
-app.use(express.static("public"));
+// app.use(express.static("public"));
 
 // start the server listening for requests
 app.listen(process.env.PORT || 3000,
