@@ -21,6 +21,12 @@ app.use('/api/Koans', Koans);
 app.engine('handlebars', exphbs({ defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
+// favicon middleware
+
+const favicon = require('serve-favicon');
+
+app.use(favicon(__dirname + '/public/img/tao.png'));
+
 // prepare dailyKoan for display
 
 var counter = 0;

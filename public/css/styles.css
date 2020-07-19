@@ -66,6 +66,20 @@ footer > a {
   }
 }
 
+@media (max-width: 440px) {
+  footer > a {
+    margin: .8rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 380px) {
+  footer > a {
+    margin: .7rem;
+    font-size: .9rem;
+  }
+}
+
 /* === FLEXBOX === */
 
 #site-container {
@@ -192,9 +206,27 @@ footer > a {
   font-weight: bolder;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 630px) {
   #aboutKoans p {
     font-size: .9rem;
+  }
+}
+
+@media (max-width: 560px) {
+  #aboutKoans p {
+    font-size: .6rem;
+  }
+}
+
+@media (max-width: 410px) {
+  #aboutKoans p {
+    font-size: .5rem;
+  }
+}
+
+@media (max-width: 350px) {
+  #aboutKoans p {
+    font-size: .45rem;
   }
 }
 
@@ -223,6 +255,12 @@ footer > a {
   color: #FFF;
 }
 
+@media (max-width: 400px) {
+  #today p {
+    font-size: 1.8rem;
+  }
+}
+
 /* === ABOUT === */
 
 #about {
@@ -247,4 +285,10 @@ footer > a {
 
 #about a {
   color: #FFF;
+}
+
+@media (max-width: 332px) {
+  #about p {
+    font-size: 1.4rem;
+  }
 }
